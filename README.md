@@ -23,30 +23,44 @@ The Emotion Analyzer is a React application that utilizes the OpenAI API to anal
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
+1. **Clone the repository:**
+
+   ````bash
    git clone https://github.com/yourusername/emotion-analyzer.git
    cd emotion-analyzer
-Install dependencies:
 
-bash
-Copy code
-npm install
-Create a .env file in the root directory and add your OpenAI API key:
+2. **Install Dependencies:**
+    ```bash
+    npm install
+    ````
 
-env
-Copy code
-VITE_API_KEY=your_api_key_here
-Start the development server:
+3. **Create .env File:**
+   Create a `.env` file in your project's root directory and add your OpenAI API key:
 
-bash
-Copy code
-npm run dev
-Open your browser and navigate to http://localhost:3000 to see the app in action.
+      ```
+      VITE_API_KEY=your_api_key_here
+      ```
 
-Usage
-Enter your text in the provided text area.
-Click the "Analyze Emotion" button to analyze the text.
-The application will display the dominant emotion and its confidence score.
-Limitations
-Please note that I was unable to test this application fully due to financial constraints as a **POOR STUDENT**. However, the code is structured to handle API requests and should work as intended with a valid API key.
+4. **Start Development Server:**
+
+    ```bash
+        npm run dev
+    ```
+
+5. **Access the App:**
+   Open your browser and navigate to `http://localhost:3000`.
+
+# Usage
+
+1. **Enter Text:**
+   Input your text in the provided text area.
+
+2. **Analyze Emotion:**
+   Click the "Analyze Emotion" button.
+
+3. **View Results:**
+   The application will display the dominant emotion detected and its confidence score.
+
+# Limitations
+
+Please note that due to that Im a **POOR STUDENT** that cant afford chatGPT api, I was unable to fully test this application. However, the code is structured to handle API requests and should function correctly with a valid OpenAI API key.
